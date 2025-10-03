@@ -1,4 +1,4 @@
-package School.YAluobaidy_Project2.src;
+package School.YAluobaidy_Project2;
 
 import java.util.Scanner;
 
