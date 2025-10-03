@@ -1,3 +1,4 @@
+package School.YAluobaidy_Project2.src;
 
 public class Patient {
 
@@ -167,12 +168,13 @@ public class Patient {
         
         return emergencyName + " " + emergencyPhone; 
     }
-
+    
+    @Override
     public String toString(){
-        return "Name: " + buildFullName() + "\n"
-        + "Address: " + buildAddress() + "\n"
-        + "PhoneNumber: " + phoneNumber + "\n"
-        + "EmergencyContact: " + buildEmergencyContact(); 
+        return "  Name: " + buildFullName() + "\n"
+        + "  Address: " + buildAddress() + "\n"
+        + "  Phone Number: " + phoneNumber + "\n"
+        + "  EmergencyContact: " + buildEmergencyContact(); 
     }
 
 

@@ -1,10 +1,11 @@
+package School.YAluobaidy_Project2.src;
 
 public class Procedure {
     //Declaring variables
-    String procedureName;
-    String date;
-    String practitioner; 
-    double charges;
+    private String procedureName;
+    private String date;
+    private String practitioner; 
+    private double charges;
 
     //No-arg constructor
     public Procedure(){
@@ -28,7 +29,7 @@ public class Procedure {
 
         this.procedureName = procedureName;
         this.date = date;
-        this. practitioner = practitioner;
+        this.practitioner = practitioner;
         this.charges = charges;
     }
 
@@ -75,9 +76,10 @@ public class Procedure {
     } 
 
     //toString method
-
+    
+    @Override
     public String toString(){
-        return "\t Procedure: " + procedureName + "\n"
+        return "\n \t Procedure: " + procedureName + "\n"
         + "\t ProcedureDate: " + date + "\n"
         + "\t Practitioner: " + practitioner + "\n"
         + "\t Charges = " + charges;
